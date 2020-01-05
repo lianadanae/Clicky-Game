@@ -1,9 +1,13 @@
 {
-  "name": "mern",
+  "name": "clicky-game",
   "version": "0.1.0",
-  "description": "Mern Demo",
+  "description": "Clicky Game",
   "private": true,
   "proxy": "http://localhost:3001/",
+  "engines": {
+    "npm": "6.12.1",
+    "node": "12.6.0"
+  },
   "dependencies": {
     "react": "^16.6.3",
     "react-dom": "^16.6.3",
