@@ -1,14 +1,8 @@
-.header {
-    width: 100%;
-    font-size: 2rem;
-    color: #2A77AE;
-    margin-bottom: 10px;
-  }
-  
   .title {
-    float: left;
+    background: #2A77AE;
+    color: lightyellow;
+    text-align: center;
   }
-  
-  .scores {
-    float: right;
+  html {
+    background-color: #2A77AE;
   }
