@@ -1,29 +1,17 @@
-# Create React Express App
+# Clicky Game
 
-## About This Boilerplate
+## Overview
+  A memory game created with React.
+  The application keeps track of the user's score. The user's score will be incremented when clicking an image for the first time. The user's score will be reset to 0 if they click the same image more than once.
 
-This setup allows for a Node/Express/React app which can be easily deployed to Heroku.
+Every time an image is clicked, the images rendered to the page  shuffle themselves in a random order.
 
-The front-end React app will auto-reload as it's updated via webpack dev server, and the backend Express app will auto-reload independently with nodemon.
+Once the user's score is reset after an incorrect guess, the game restarts.
 
-## Starting the app locally
+## Technologies Used
+- React.js
+- Bootstrap
 
-Start by installing front and backend dependencies. While in this directory, run the following command:
+## Links
+[Clicky Game](https://clicky-game-characters.herokuapp.com/)
 
-```
-npm install
-```
-
-This should install node modules within the server and the client folder.
-
-After both installations complete, run the following command in your terminal:
-
-```
-npm start
-```
-
-Your app should now be running on <http://localhost:3000>. The Express server should intercept any AJAX requests from the client.
-
-## Deployment (Heroku)
-
-To deploy, simply add and commit your changes, and push to Heroku. As is, the NPM scripts should take care of the rest.
